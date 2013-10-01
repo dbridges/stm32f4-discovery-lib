@@ -4,6 +4,9 @@
 #include <stdint.h>
 #include "systime.h"
 
+#define TRUE                1
+#define FALSE               0
+
 struct Task;
 typedef void (*TaskCallback)(struct Task *);
 
